@@ -1,17 +1,14 @@
 # LMS
 LMS
 # Requirements:
-
-> The following program(s) are required to run the project
-
-- [Python3.8+](https://www.python.org/downloads/)
-
+- [Python 3.8+](https://www.python.org/downloads/release/python-3810/)
+- [Vs code 1.95.3](https://code.visualstudio.com/updates/v1_95). Open vs code --> Extension --> Install Django v1.15.0
 # Installation
 
 - Clone the repo with
 
 ```bash
-git clone https://github.com/SkyCascade/SkyLearn.git
+https://github.com/tinh1234555555555/LMS.git
 ```
 
 - Create and activate a python virtual environment
@@ -19,10 +16,6 @@ git clone https://github.com/SkyCascade/SkyLearn.git
 ```bash
 pip install -r requirements.txt
 ```
-
-- Create `.env` file inside the root directory
-
-- Copy and paste everything in the `.env.example` file into the `.env` file. Don't forget to customize the variable values
 
 ```bash
 python manage.py migrate
@@ -36,4 +29,4 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-Last but not least, go to this address http://127.0.0.1:8000
+Finally, open the browser http://127.0.0.1:8000
