@@ -13,11 +13,15 @@ https://github.com/tinh1234555555555/LMS.git
 
 ## Tạo môi trường ảo (virtual environment)
 
-`$ python -m venv venv`
+```bash
+python -m venv venv
+```
 
 ## Active môi trường ảo
 
-`$ venv\Scripts\activate`
+```bash
+venv\Scripts\activate
+```
 
 (Inactive) `$ deactivate`
 - Create and activate a python virtual environment
